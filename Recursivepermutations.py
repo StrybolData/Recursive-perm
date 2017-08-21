@@ -1,8 +1,4 @@
 
-# coding: utf-8
-
-# In[49]:
-
 
 def perm(number,couples=0):
    if(couples==len(number)):
@@ -14,16 +10,4 @@ def perm(number,couples=0):
          number[couples],number[i] = number[i],number[couples]
 
 print(perm([1,2]))
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
 
