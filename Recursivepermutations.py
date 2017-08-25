@@ -1,5 +1,3 @@
-
-
 def perm(number,couples=0):
    if(couples==len(number)):
       print (number)
@@ -10,4 +8,3 @@ def perm(number,couples=0):
          number[couples],number[i] = number[i],number[couples]
 
 print(perm([1,2]))
-
